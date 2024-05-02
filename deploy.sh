@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Set the tag to the current timestamp
-export TAG=$(date +%s)
+# Set the tag to the specific value
+export TAG=1707714603
 echo "TAG is set to $TAG"
 
 # Replace the $TAG variable in the deployment.yaml file and apply the configuration
