@@ -1,0 +1,10 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: mwc-genai-app-local-care-app-ubi8
+spec:
+  to:
+    kind: Service
+    name: mwc-genai-app-local-care-app-ubi8
+  port:
+    targetPort: 8080
